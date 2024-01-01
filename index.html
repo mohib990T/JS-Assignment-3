@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Assignment-3</title>
 </head>
+
 <body>
     <h1>JS Assignment-3</h1>
+    <br />
+    <h2>1. What are the differences between var, let and const?</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>var :-
+    <ol>
+        <li>Variables declared with var are in the function scope.</li>
+        <li>We can declare var variables after defining them.</li>
+        <li>We can define new values to the var variables</li>
+        <li>We allowed to declare the same variable again.</li>
+    </ol>
+    </p>
+    <p>let :-
+    <ol>
+        <li>Variables declared with let are in the block scope.</li>
+        <li>let variables do not support hoisting.</li>
+        <li>We can define new values to the let variables</li>
+        <li>let variables do not allow you to redeclare them again.</li>
+    </ol>
+    </p>
+    <p>const :-
+    <ol>
+        <li>Variables declared with const are in the block scope.</li>
+        <li>const variables do not support hoisting.</li>
+        <li>const variables value cannot be reassigned.</li>
+        <li>const variables do not allow you to redeclare them again.</li>
+    </ol>
+    </p>
+    <br>
+    <h2>2. What is difference between null and undefined and where to use ?</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>undefined :- Undefined means the variable has been declared, but its value has not been assigned. <br>
+        null : - Null means an empty value or a blank value. And we use the null when if we want print the value
+        at the particular time or event.</p>
+    <h2>3. What is use of prompt in JavaScript?</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>The JavaScript window. prompt() is a built-in function that is used to display a dialog box that asks the user to
+        input some text. This pop-up box will appear and takes user input before entering the web page. It waits until
+        the user enters any value in the text box or we can also cancel the dialog box.</p>
+
+    <h2>4. Why JavaScript is Dyanmic Language? Write the Code for all Data types.</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>JavaScript is a dynamically typed language, which means that data types of variables are determined by the value
+        they hold at runtime and can change throughout the program as we assign different values to them <br>
+        There are two type of datatypes present in Javascript. <br>
+    <ol>
+        <li>Primitive Data Type</li>
+        <li>Non-primitive
+            Data Type</li>
+    </ol> <br>
+    Primitive Datatype consist of 5 different data type named -
+    <br>
+    <ol>
+        <li>Number :- let a = 123;</li>
+        <li>String :- let b = "Hey Javascript"</li>
+        <li>Boolean :- let c = true/false;</li>
+        <li>Undefined :- let d;</li>
+        <li>Null :- let e = null;</li>
+    </ol>
+    <br>Non-primitive datatype consist of 3 different data type named -
+    <ol>
+        <li>Object :- {key : value}</li>
+        <li>Array :- [12, 34, 56]</li>
+        <li>Function :- function fun(){}</li>
+    </ol>
+
+    <h2>5. What are the uses of JavaScript Operators?</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>Operators are used to assign values, compare values, perform arithmetic operations, and more.
+
+        There are different types of JavaScript operators: <br>
+    <ol>
+        <li>Arithmetic Operators</li>
+        <li>Assignment Operators</li>
+        <li>Comparison Operators</li>
+        <li>Logical Operators</li>
+        <li>Conditional Operators</li>
+        <li>Type Operators</li>
+    </ol>
+    </p>
+    <h2>6. Explain the Assignment Operator.</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>An assignment operator is basically a binary operator that helps in modifying the variable to its left with the
+        use of the value to its right. We utilize the assignment operators to transform and assign values to any
+        variables.</p>
+    <h2>7. Explain the all Arithmetic Operators.</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>An arithmetic operator is a mathematical function that takes two operands and performs a calculation on them.
+        They are used in common arithmetic and most computer languages contain a set of such operators that can be used
+        within equations to perform a number of types of sequential calculation. <br>
+        There are the 5 arithmetic operations -
+    <ol>
+        <li>Addition (+) Adds one operand to the other</li>
+        <li>Subtraction (-) Subtracts the second operand from the first</li>
+        <li>Multiplication (*) Multiplies one operand by the other</li>
+        <li>Division (/) Divides the first operand by the second</li>
+        <li>Modulo (%) Divides the first integer operand by the second, and returns the remainder</li>
+    </ol>
+    </p>
+    <h2>8. What are the Binary Operators in js</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>A binary operator is an operator that operates on two operands and manipulates them to return a result. Binary
+        operators are presented in the form: Operand1, Operator, Operand2<br>Some common binary operators
+        in computing include: <br>
+    <ol>
+        <li>Equal (==)</li>
+        <li>Not equal (!=)</li>
+        <li>Less than (<)< /li>
+        <li>Greater than (>)</li>
+        <li>Greater than or equal to (>=)</li>
+        <li>Less than or equal to (<=) </li>
+        <li>Logical AND (&&)</li>
+        <li>Logical OR (||)</li>
+        <li>Addition (+)</li>
+        <li>Subtraction (-)</li>
+        <li>Multiplication (*)</li>
+        <li>Divide (/)</li>
+        <li>Modulo (%)</li>
+    </ol>
+    </p>
+    <h2>9. Explain the Pre-Increment and Post Increment in js.</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p>Pre-increment (++i) - Before assigning the value to the variable, the value is incremented by one. <br>
+        Ex :- let x = 3;<br>
+        let y = ++x; <br>
+        console.log(x) //it will give output 4 <br>
+        console.log(y) //it will give output 4. <br>
+
+
+        Post-increment (i++) - After assigning the value to the variable, the value is incremented. <br>
+        Ex :- let x =3;<br>
+        let y = x++; <br>
+        console.log(x) //it will give output 4 <br>
+        console.log(y) //it will give output 3
+    </p>
+    <h2>10. Difference between “ == “ and “ === “ operators.</h2>
+    <p style="color: blue;">Ans :-</p>
+    <p> The "==" operator is the comparison operator. It will only return true if both values are equivalent after
+        checking their types
+        to the same type. <br>
+        The "===" operator is a more strict comparison operator often called the identity operator. It will only
+        return true if both the type and value of the operands are the same.</p>
     <script src="./index.js"></script>
 </body>
+
 </html>
